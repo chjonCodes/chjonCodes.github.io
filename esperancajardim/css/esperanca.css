@@ -13,6 +13,11 @@
     src: url('https://fonts.googleapis.com/css?family=Oswald"');
 }
 
+@font-face {
+    font-family: "Xtreem_2";
+    src:url("../vendor/fonts/Xtreem_2.ttf") format('truetype');
+}
+
 
 body {
   font-family: 'Libre Baskerville', sans-serif;
@@ -32,8 +37,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Dancing Script', cursive;
-  font-weight: 700;
+  font-family: 'Xtreem_2', cursive;
+  font-weight: 500;
   margin: 0 0 35px;
   letter-spacing: 1px;}
 
@@ -211,7 +216,9 @@ ul.banner-social-buttons {
         margin-bottom: 0; } }
 
 footer {
-  padding: 50px 0; }
+  padding: 50px 0; 
+  #background-color: #F0F0F0;
+}
   footer p {
     color: black;
     font-size: 14px;
